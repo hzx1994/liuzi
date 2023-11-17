@@ -1,0 +1,9 @@
+<scroll-view class="list" refresher-enabled style="height: {{height}};" refresher-triggered="{{refresherTriggered}}"
+    bindrefresherpulling="bindrefresherpulling" bindrefresherrefresh="bindrefresherrefresh" scroll-top="{{scrollTop}}"
+    scroll-y="{{true}}" bindscrolltolower="bindscrolltolower">
+    <block tt:if="{{list.length>0}}">
+        <slot></slot>
+    </block>
+    <view tt:else class="empty">暂无数据</view>
+    <view tt:if="{{noMore}}" class="noMore">没有更多了</view>
+</scroll-view>

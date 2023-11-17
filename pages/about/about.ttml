@@ -1,0 +1,67 @@
+<navigator url="{{"/pages/information/information"}}">
+    <view class="container">
+        <view class="Radius">
+            <view class="Radius_top" style="border-top: 1px solid #f0f0f0;">
+                <text>关于我们</text>
+                <view class="font_Grey_small">About</view>
+            </view>
+            <view class="idea">
+                天津⻘椰科技有限公司，成⽴于2023年4⽉18⽇，为北京云和互动信息技术有限公司全资⼦公司，⾪属于北京云和互动技术研发团队，主要负责产品研发、技术⽀持、和 KA客⼾的运营服务。
+            </view>
+            <view class="idea">
+                Tianjin Qingcoconut Technology Co., LTD., founded on April 18, 2023, is a wholly-owned subsidiary of
+                Beijing Yunhe Interactive Information Technology Co., LTD., affiliated to Beijing Yunhe Interactive
+                Technology research and development team, mainly responsible for product development, technical support,
+                and operation services for KA customers.
+            </view>
+            <view class="idea-image"></view>
+        </view>
+
+        <view class="flex-item-v" style="width: 100%;height: 640rpx;">
+            <view class="Radius_top">
+                <text> 公司地址</text>
+                <view class="font_Grey_small">Address</view>
+            </view>
+            <map style="width: 97%;height: 504.66rpx;" show-location="{{showLocation}}" longitude="{{longitude}}"
+                latitude="{{latitude}}" circles="{{circles}}" markers="{{markers}}" scale="{{scale}}"
+                rotate="{{rotate}}" skew="{{skew}}" show-scale="{{showscale}}" show-compass="{{showcompass}}"></map>
+        </view>
+
+        <view class="flex-item-v">
+            <view class="Radius_top">
+                <text>矩阵功能</text>
+                <view class="font_Grey_small">Feature</view>
+            </view>
+            <view class="case_container">
+                <view class="s-case">
+                    <image class="image" src="{{imageUrl}}" />
+                    <view>数据管理中心</view>
+                </view>
+                <view class="s-case">
+                    <image class="image" src="{{imageUrl2}}" />
+                    <view>任务管理中心</view>
+                </view>
+                <view class="s-case">
+                    <image class="image" src="{{imageUrl3}}" />
+                    <view>内容创作中心</view>
+                </view>
+                <view class="s-case">
+                    <image class="image" src="{{imageUrl4}}" />
+                    <view>自动化获客中心</view>
+                </view>
+                <view class="s-case">
+                    <image class="image" src="{{imageUrl5}}" />
+                    <view>AI营销策略中心</view>
+                </view>
+                <view class="s-case">
+                    <image class="image" src="{{imageUrl6}}" />
+                    <view>小程序操作系统</view>
+                </view>
+
+
+            </view>
+        </view>
+
+
+    </view>
+</navigator>

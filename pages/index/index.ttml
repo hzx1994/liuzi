@@ -1,0 +1,85 @@
+<navigator url="{{"/pages/information/information"}}">
+    <view class="container">
+        <swiper easing-function="default" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{2000}}"
+            circular="{{true}}">
+            <block tt:for="{{background}}">
+                <swiper-item>
+                    <view class="swiper-item {{item}}">
+                        <view class="image-container"
+                            style="background: url('{{item.url}}');background-size: cover;background-position: center;">
+                        </view>
+                        <!-- <image class="image" src="{{item.url}}" lazy-load="{{true}}" mode="{{aspectFit}}" /> -->
+                    </view>
+                </swiper-item>
+            </block>
+        </swiper>
+
+        <view class="Radius">
+            <view class="Radius_top">
+                <text>服务范围</text>
+                <view class="font_Grey_small">Service</view>
+            </view>
+            <view class="flex-wrapper" style="flex-direction:row;">
+                <view hover-class="hover-item" class="flex-item flex-item-margin">
+                    <view class="flex-item-r-t">
+                        <view class="flex-font1">
+                            产品研发
+                            <view class="font_Grey_small">product research</view>
+                        </view>
+                    </view>
+                    <view class="flex-item-r-b">
+                        <view style="padding: 30rpx;">
+                            技术⽀持
+                            <view class="font_Grey_small">Technical Support</view>
+                        </view>
+                    </view>
+                </view>
+                <view hover-class="hover-item" class="flex-item">
+                    <view style="flex-direction:column;"></view>
+                    <view tt:for="{{service}}" class="flex-item-v"
+                        style="background: url('{{item.url}}');background-size:cover;">
+                        <view class="flex-font2">
+                            {{item.text}}
+                            <View class="font_Grey_small">{{item.Entext}}</View>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+        <view>
+            <view class="Radius_top">
+                <text>理念</text>
+                <view class="font_Grey_small">Idea</view>
+            </view>
+            <view class="idea">
+                团队致⼒于数据整合场景化应⽤，⾯向⼤宗⾏业实施AI深度赋能。为⼤宗⾏业客⼾提供抖⾳智能运营
+                整体解决⽅案，提升客⼾抖⾳运营能⼒。
+            </view>
+            <view class="idea">
+                The team is committed to the application of data integration scenarios and the implementation of
+                in-depth AI empowerment for large-scale industries. Provide Tiktok intelligent operation overall
+                solution for large-scale industry customers, improve customer Tiktok operation capability.
+            </view>
+
+            <view class="idea-image">
+
+            </view>
+        </view>
+
+        <view class="Radius">
+            <view class="Radius_top">
+                <text>产品</text>
+                <view class="font_Grey_small">Product</view>
+            </view>
+            <view style="padding: 50rpx 30rpx;text-align: center;" tt:for="{{advertisement}}">
+                <image src="{{item.url}}" class="advertisement-image">
+                </image>
+                <view style="margin-top: 30rpx;font-size: 32rpx;">{{item.title}}</view>
+                <view class="font_Grey_small" style="margin-top: 30rpx; padding: 0 30rpx;">
+                    {{item.text}}
+                </view>
+            </view>
+        </view>
+    </view>
+</navigator>

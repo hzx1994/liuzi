@@ -1,0 +1,73 @@
+
+.font_Grey_small{
+  font-size: 14px;
+  color: #8c8c8c;
+  padding-top: 10rpx;
+}
+
+.container{
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.Radius{
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 20rpx;
+}
+
+.Radius_top{
+  padding: 20rpx 0;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.form {
+  padding: 18rpx;
+  margin: 0 60rpx;
+}
+
+.form input {
+  background: #fafafa;
+  height: 90rpx;
+  margin: 30rpx 0 60rpx;
+  padding-left: 20rpx;
+  border: 1px solid #f0f0f0;
+  border-radius: 8rpx;
+}
+
+.form button {
+  margin-bottom: 20rpx;
+}
+
+.idea-image {
+  width: 100%;
+  height: 400rpx;
+  background-image: url("https://19446153.s61i.faiusr.com/2/AD0IifOiCRACGAAgh4fV5gUoqPWE-QEw7gU46AI!900x900.jpg");
+  background-size: cover;
+  background-position-x: center;
+  margin-top: 20rpx;
+}
+
+.flex-wrapper {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item {
+  width: 60%;
+}
+
+.flex-item2 {
+  width: 40%;
+}
+
+.image-container {
+  width: 100%; /* 容器宽度 */
+  height: 150px;
+  background: url('https://19446153.s61i.faiusr.com/4/AD0IifOiCRAEGAAguofV5gUouL640wIwgAI4pwI!1500x1500.png');
+  background-size: cover;
+  background-position: center;
+}

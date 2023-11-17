@@ -1,0 +1,22 @@
+{
+    "setting": {
+        "urlCheck": false
+    },
+    "condition": {
+        "miniprogram": {
+            "current": -1,
+            "list": [
+                {
+                    "id": 1700039886633,
+                    "name": "\"pages/information/information\"",
+                    "pathName": "pages/information/information",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                }
+            ]
+        }
+    }
+}

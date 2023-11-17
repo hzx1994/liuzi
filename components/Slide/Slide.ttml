@@ -1,0 +1,8 @@
+<block>
+    <view class="{{tagVisible?" filterWrapper active": "filterWrapper" }}"
+        style="{{tagVisible?activeStyle:deactiveStyle}}">
+        <slot></slot>
+    </view>
+
+    <mask hidden="{{!tagVisible}}" bindtap="onCancel"></mask>
+</block>
